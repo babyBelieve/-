@@ -1,0 +1,11 @@
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:32,094 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:33,826 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:36,709 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:37,172 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:39,212 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:41,782 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:42,364 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:44,445 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:44,756 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:46,796 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2022-03-17 21:05:46,902 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true

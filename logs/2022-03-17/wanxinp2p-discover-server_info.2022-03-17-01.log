@@ -1,0 +1,2 @@
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-17 01:10:32,741 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10800053ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-17 01:10:42,745 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms

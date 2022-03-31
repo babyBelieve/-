@@ -1,0 +1,7 @@
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 15:38:50,333 ERROR [http-nio-53050-exec-1][GlobalExceptionHandler.java:47] - 【系统异常】Missing URI template variable 'jsonToken' for method parameter of type String
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 15:39:51,653 ERROR [http-nio-53050-exec-5][GlobalExceptionHandler.java:47] - 【系统异常】Missing URI template variable 'jsonToken' for method parameter of type String
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 15:40:48,029 ERROR [http-nio-53050-exec-1][GlobalExceptionHandler.java:47] - 【系统异常】Missing URI template variable 'jsonToken' for method parameter of type String
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 15:42:37,447 ERROR [http-nio-53050-exec-3][GlobalExceptionHandler.java:47] - 【系统异常】Missing URI template variable 'jsonToken' for method parameter of type String
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 15:43:19,800 ERROR [http-nio-53050-exec-4][GlobalExceptionHandler.java:47] - 【系统异常】Missing URI template variable 'jsonToken' for method parameter of type String
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 15:43:58,566 ERROR [http-nio-53050-exec-7][GlobalExceptionHandler.java:47] - 【系统异常】Missing URI template variable 'jsonToken' for method parameter of type String
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 15:47:41,809 ERROR [http-nio-53050-exec-9][GlobalExceptionHandler.java:47] - 【系统异常】Missing URI template variable 'jsonToken' for method parameter of type String

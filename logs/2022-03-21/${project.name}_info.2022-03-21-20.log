@@ -1,0 +1,73 @@
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:09,854 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to gateway-server by app.id property from System Property
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:09,861 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:09,900 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:09,905 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:11,019 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:12,397 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:12,400 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:12,425 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:12,812 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:12,822 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:12,908 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,036 INFO [main][GenericScope.java:294] - BeanFactory id=75b5c464-5411-3c02-a745-d2ddfd4778f0
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,056 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,514 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$68e085a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,798 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,815 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,825 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,825 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:13,835 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\BREW\IT\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\BREW\IT\TortoiseGit\bin;E:\BREW\IT\TortoiseSVN\bin;E:\BREW\IT\JDK\bin;E:\BREW\IT\MAVEN\apache-maven-3.8.4\bin;E:\BREW\IT\Git\Git\cmd;E:\BREW\IT\MYSQL80\mysql-8.0.28-winx64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;E:\BREW\IT\IDEA\IntelliJ IDEA 2021.3.2\bin;;.]
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:14,045 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:14,045 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 3014 ms
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:14,173 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:14,174 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:14,187 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1ee5632d
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:17,814 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:17,814 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:18,017 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:18,457 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 340a07a9-076d-4177-a664-30c5bdbb45a5
+
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:18,619 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@389a1e34, org.springframework.security.web.context.SecurityContextPersistenceFilter@19647566, org.springframework.security.web.header.HeaderWriterFilter@1e0294a7, org.springframework.security.web.csrf.CsrfFilter@2e4ecdf8, org.springframework.security.web.authentication.logout.LogoutFilter@51f34185, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@abc7005, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7856f41a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@204b0f07, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@77cd235b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@527d48db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@83ebdc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f68756d, org.springframework.security.web.session.SessionManagementFilter@15cee630, org.springframework.security.web.access.ExceptionTranslationFilter@64c95480, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d800a56]
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:18,753 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:19,650 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:19,752 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:19,785 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:19,837 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:19,838 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,142 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,143 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,373 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,849 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,849 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,849 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,850 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,850 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,850 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:20,850 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,010 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,012 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,015 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,018 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1647867381017 with initial instances count: 0
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,020 INFO [main][EurekaServiceRegistry.java:42] - Registering application GATEWAY-SERVER with eureka with status UP
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,020 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1647867381020, current=UP, previous=STARTING]
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,022 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.0.73:53010: registering service...
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,037 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,071 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,072 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53010
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,075 INFO [main][StartupInfoLogger.java:59] - Started GatewayServer in 14.713 seconds (JVM running for 17.475)
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,127 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.0.73:53010 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,656 INFO [RMI TCP Connection(1)-172.35.0.73][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,657 INFO [RMI TCP Connection(1)-172.35.0.73][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:21,670 INFO [RMI TCP Connection(1)-172.35.0.73][FrameworkServlet.java:546] - Completed initialization in 13 ms
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:22,911 INFO [RMI TCP Connection(3)-172.35.0.73][EpollProvider.java:68] - Starting without optional epoll library
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:22,913 INFO [RMI TCP Connection(3)-172.35.0.73][KqueueProvider.java:70] - Starting without optional kqueue library
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,026 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:958] - Disable delta property : false
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,027 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,027 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:960] - Force full registry fetch : false
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,027 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:961] - Application is null : false
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,027 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,027 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:964] - Application version is -1: false
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,027 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[${project.name}][${env:SERVER_PORT}] 2022-03-21 20:56:51,068 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1056] - The response status is 200

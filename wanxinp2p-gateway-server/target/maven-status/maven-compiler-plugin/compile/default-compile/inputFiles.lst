@@ -1,0 +1,9 @@
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\common\util\HttpUtil.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\ZuulConfig.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\RestOAuth2AuthExceptionEntryPoint.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\RestAccessDeniedHandler.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\ResouceServerConfig.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\JWTConfig.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\ClientDefaultAccessTokenConverter.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\GatewayServerApplication.java
+E:\BREW\Code\万信金融\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\filter\AuthFilter.java

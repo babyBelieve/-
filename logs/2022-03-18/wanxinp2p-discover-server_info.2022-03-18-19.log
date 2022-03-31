@@ -1,0 +1,4 @@
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-18 19:00:06,769 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-18 19:00:06,771 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:611] - Evicting 1 items (expired=2, evictionLimit=1)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-18 19:00:06,774 WARN [Eureka-EvictionTimer][AbstractInstanceRegistry.java:623] - DS: Registry: expired lease for ACCOUNT-SERVICE/account-service:192.168.1.8:53030
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-18 19:00:06,827 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:330] - Cancelled instance ACCOUNT-SERVICE/account-service:192.168.1.8:53030 (replication=false)

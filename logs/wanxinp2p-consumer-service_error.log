@@ -1,0 +1,6 @@
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 22:09:14,553 ERROR [http-nio-53050-exec-1][GlobalExceptionHandler.java:47] - 【系统异常】null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 22:13:31,300 ERROR [http-nio-53050-exec-1][GlobalExceptionHandler.java:47] - 【系统异常】null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 22:14:54,168 ERROR [http-nio-53050-exec-3][GlobalExceptionHandler.java:47] - 【系统异常】null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 22:15:39,984 ERROR [http-nio-53050-exec-6][GlobalExceptionHandler.java:47] - 【系统异常】null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 22:16:29,331 ERROR [http-nio-53050-exec-4][GlobalExceptionHandler.java:47] - 【系统异常】null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2022-03-30 22:19:48,457 ERROR [http-nio-53050-exec-1][GlobalExceptionHandler.java:47] - 【系统异常】null

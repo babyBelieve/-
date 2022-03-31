@@ -1,0 +1,2 @@
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-17 18:00:28,095 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-17 18:05:28,107 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration

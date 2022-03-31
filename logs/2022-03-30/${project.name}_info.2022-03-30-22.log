@@ -1,0 +1,44 @@
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:10,104 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:12,138 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:23,562 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:24,814 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:26,849 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:34,193 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:35,460 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:36,224 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:36,254 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:38,090 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:38,216 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:41,274 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:53,578 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:00:54,854 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:00,943 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:05,427 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:06,240 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:16,927 INFO [hmilyTransaction-hmily-transaction-self-recovery-104][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:22,771 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:23,572 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:26,818 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:28,868 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:35,474 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:36,258 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,318 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,318 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,327 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE MOBILE = ? 
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,328 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 13311999215(String)
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,330 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,332 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,BANK_CODE,BANK_NAME,CARD_NUMBER,MOBILE,STATUS FROM bank_card WHERE CARD_NUMBER = ? 
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,333 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 888888(String)
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,335 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,338 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: UPDATE consumer SET USER_NO=?,REQUEST_NO=?,FULLNAME=?,ID_NUMBER=?,AUTH_LIST=? WHERE MOBILE = ? 
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,339 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: USR_F241EB04A1264E0E982CB4C974C76AE8(String), USR_27FB18BCAC3049719DA893C58EDD9AFB(String), 黄世仁(String), 888888(String), ALL(String), 13311999215(String)
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,341 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==    Updates: 1
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,342 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,BANK_CODE,BANK_NAME,CARD_NUMBER,MOBILE,STATUS FROM bank_card WHERE CONSUMER_ID = ? 
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,343 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 31(Long)
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,345 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,346 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,BANK_CODE,BANK_NAME,CARD_NUMBER,MOBILE,STATUS FROM bank_card WHERE ID=? 
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,348 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 66(Long)
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,350 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,351 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: UPDATE bank_card SET CONSUMER_ID=?, BANK_CODE=?, CARD_NUMBER=?, MOBILE=?, STATUS=? WHERE ID=? 
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,352 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 31(Long), 888(String), 888888(String), 13311999215(String), 0(Integer), 66(Long)
+[${project.name}][${env:SERVER_PORT}] 2022-03-30 23:01:39,353 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==    Updates: 1

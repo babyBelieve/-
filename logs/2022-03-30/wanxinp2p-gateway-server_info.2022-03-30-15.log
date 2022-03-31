@@ -1,0 +1,206 @@
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:36:49,718 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to gateway-server by app.id property from System Property
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:36:49,726 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:36:49,785 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:36:49,794 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:00,138 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,163 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,167 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,203 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,411 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,422 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,506 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,622 INFO [main][GenericScope.java:294] - BeanFactory id=4609e0e5-f83e-3baf-8a1b-5bde812d113a
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,640 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:01,925 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f8fc5020] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,218 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,234 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,242 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,243 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,252 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\BREW\IT\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\BREW\IT\TortoiseGit\bin;E:\BREW\IT\TortoiseSVN\bin;E:\BREW\IT\JDK\bin;E:\BREW\IT\MAVEN\apache-maven-3.8.4\bin;E:\BREW\IT\Git\Git\cmd;E:\BREW\IT\MYSQL80\mysql-8.0.28-winx64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;E:\BREW\IT\IDEA\IntelliJ IDEA 2021.3.2\bin;;.]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,585 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,586 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2435 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,683 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,683 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:02,694 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@130cfc47
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:05,533 WARN [main][JwtAccessTokenConverter.java:302] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:05,632 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:05,632 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:05,848 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:06,250 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 29512b83-4c89-4dc7-ac10-cf3b84a53b1f
+
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:06,397 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@305881b8, org.springframework.security.web.context.SecurityContextPersistenceFilter@20f63ddc, org.springframework.security.web.header.HeaderWriterFilter@218f2f51, org.springframework.security.web.authentication.logout.LogoutFilter@70439c3, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7be7c052, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69bc4024, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77ce8bc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e89eba7, org.springframework.security.web.session.SessionManagementFilter@1a336906, org.springframework.security.web.access.ExceptionTranslationFilter@54387873, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49bb808f]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:06,544 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:07,495 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:07,582 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:07,620 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:07,673 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:07,674 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:07,783 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:07,783 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,045 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,535 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,536 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,536 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,536 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,536 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,536 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,536 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,762 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,764 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,767 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,771 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1648625828769 with initial instances count: 0
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,774 INFO [main][EurekaServiceRegistry.java:42] - Registering application GATEWAY-SERVER with eureka with status UP
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,775 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1648625828775, current=UP, previous=STARTING]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,777 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.1.156:53010: registering service...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,795 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,827 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,828 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53010
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,831 INFO [main][StartupInfoLogger.java:59] - Started GatewayServerApplication in 23.301 seconds (JVM running for 25.828)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:08,878 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.1.156:53010 - registration status: 204
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:09,372 INFO [RMI TCP Connection(3)-172.35.1.156][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:09,373 INFO [RMI TCP Connection(3)-172.35.1.156][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:09,393 INFO [RMI TCP Connection(3)-172.35.1.156][FrameworkServlet.java:546] - Completed initialization in 19 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:09,618 INFO [RMI TCP Connection(4)-172.35.1.156][EpollProvider.java:68] - Starting without optional epoll library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:09,625 INFO [RMI TCP Connection(4)-172.35.1.156][KqueueProvider.java:70] - Starting without optional kqueue library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,773 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,773 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,773 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,773 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,773 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,773 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:964] - Application version is -1: false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,773 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:37:38,826 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:38:49,929 INFO [http-nio-53010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: consumer-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:38:49,948 INFO [http-nio-53010-exec-1][ShutdownEnabledTimer.java:58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-consumer-service
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:38:49,949 INFO [http-nio-53010-exec-1][BaseLoadBalancer.java:197] - Client: consumer-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=consumer-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:38:49,953 INFO [http-nio-53010-exec-1][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:38:49,970 INFO [http-nio-53010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: consumer-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:38:49,972 INFO [http-nio-53010-exec-1][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client consumer-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=consumer-service,current list of Servers=[172.35.1.156:53050],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.35.1.156:53050;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1b7b02ad
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:38:50,962 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: consumer-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:42:08,539 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:47:08,548 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,470 INFO [Thread-69][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,470 INFO [Thread-53][EurekaServiceRegistry.java:65] - Unregistering application GATEWAY-SERVER with eureka with status DOWN
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,471 WARN [Thread-53][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1648626501471, current=DOWN, previous=UP]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,471 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.1.156:53010: registering service...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,473 INFO [Thread-53][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,476 INFO [Thread-53][ShutdownEnabledTimer.java:67] - Shutdown hook removed for: NFLoadBalancer-PingTimer-consumer-service
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,476 INFO [Thread-53][ShutdownEnabledTimer.java:72] - Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:239)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:79)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,486 INFO [Thread-53][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:21,487 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.1.156:53010 - registration status: 204
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:22,687 INFO [Thread-53][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:25,698 INFO [Thread-53][DiscoveryClient.java:922] - Unregistering ...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:25,715 INFO [Thread-53][DiscoveryClient.java:924] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.1.156:53010 - deregister  status: 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:25,720 INFO [Thread-53][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:37,612 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to gateway-server by app.id property from System Property
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:37,617 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:37,654 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:37,658 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:47,568 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,399 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,403 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,517 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,613 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,624 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,710 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,837 INFO [main][GenericScope.java:294] - BeanFactory id=4609e0e5-f83e-3baf-8a1b-5bde812d113a
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:48,857 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,057 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8d2b7566] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,368 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,385 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,393 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,394 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,401 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\BREW\IT\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\BREW\IT\TortoiseGit\bin;E:\BREW\IT\TortoiseSVN\bin;E:\BREW\IT\JDK\bin;E:\BREW\IT\MAVEN\apache-maven-3.8.4\bin;E:\BREW\IT\Git\Git\cmd;E:\BREW\IT\MYSQL80\mysql-8.0.28-winx64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;E:\BREW\IT\IDEA\IntelliJ IDEA 2021.3.2\bin;;.]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,614 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,615 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2031 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,737 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,738 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:49,751 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1cb44a2f
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:51,967 WARN [main][JwtAccessTokenConverter.java:302] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:52,071 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:52,071 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:52,277 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:52,687 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: b31c4f02-348a-4b9b-8fd8-5aa7305f93f9
+
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:52,826 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@394e504d, org.springframework.security.web.context.SecurityContextPersistenceFilter@386f88b3, org.springframework.security.web.header.HeaderWriterFilter@7ab3f194, org.springframework.security.web.authentication.logout.LogoutFilter@341df373, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@19c06762, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1885905b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60251ddb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62ff14cd, org.springframework.security.web.session.SessionManagementFilter@56351c02, org.springframework.security.web.access.ExceptionTranslationFilter@2748bd6c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a0b4955]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:52,972 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:53,785 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:53,874 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:53,912 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:53,969 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:53,970 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,084 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,085 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,338 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,660 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,660 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,660 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,660 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,661 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,661 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,661 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,819 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,822 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,824 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,828 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1648626534827 with initial instances count: 3
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,829 INFO [main][EurekaServiceRegistry.java:42] - Registering application GATEWAY-SERVER with eureka with status UP
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,830 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1648626534830, current=UP, previous=STARTING]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,832 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.1.156:53010: registering service...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,848 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,878 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,878 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:172.35.1.156:53010 - registration status: 204
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,879 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53010
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:54,881 INFO [main][StartupInfoLogger.java:59] - Started GatewayServerApplication in 19.54 seconds (JVM running for 21.95)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:55,508 INFO [RMI TCP Connection(2)-172.35.1.156][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:55,508 INFO [RMI TCP Connection(2)-172.35.1.156][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:55,522 INFO [RMI TCP Connection(2)-172.35.1.156][FrameworkServlet.java:546] - Completed initialization in 14 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:55,657 INFO [RMI TCP Connection(1)-172.35.1.156][EpollProvider.java:68] - Starting without optional epoll library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:48:55,662 INFO [RMI TCP Connection(1)-172.35.1.156][KqueueProvider.java:70] - Starting without optional kqueue library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:51:24,969 INFO [http-nio-53010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: consumer-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:51:24,988 INFO [http-nio-53010-exec-1][ShutdownEnabledTimer.java:58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-consumer-service
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:51:24,989 INFO [http-nio-53010-exec-1][BaseLoadBalancer.java:197] - Client: consumer-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=consumer-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:51:24,993 INFO [http-nio-53010-exec-1][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:51:25,010 INFO [http-nio-53010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: consumer-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:51:25,011 INFO [http-nio-53010-exec-1][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client consumer-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=consumer-service,current list of Servers=[172.35.1.156:53050],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.35.1.156:53050;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@77467cd5
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:51:26,004 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: consumer-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:53:54,673 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2022-03-30 15:58:54,686 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration

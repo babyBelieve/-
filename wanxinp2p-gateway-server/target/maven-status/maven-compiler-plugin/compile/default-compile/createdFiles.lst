@@ -1,0 +1,11 @@
+cn\itcast\wanxinp2p\gateway\config\RestAccessDeniedHandler.class
+cn\itcast\wanxinp2p\gateway\config\JWTConfig.class
+cn\itcast\wanxinp2p\gateway\config\ResouceServerConfig$UAAServerConfig.class
+cn\itcast\wanxinp2p\gateway\config\RestOAuth2AuthExceptionEntryPoint.class
+cn\itcast\wanxinp2p\gateway\common\util\HttpUtil.class
+cn\itcast\wanxinp2p\gateway\GatewayServerApplication.class
+cn\itcast\wanxinp2p\gateway\config\ClientDefaultAccessTokenConverter.class
+cn\itcast\wanxinp2p\gateway\config\ResouceServerConfig.class
+cn\itcast\wanxinp2p\gateway\filter\AuthFilter.class
+cn\itcast\wanxinp2p\gateway\config\ZuulConfig.class
+cn\itcast\wanxinp2p\gateway\config\ResouceServerConfig$ConsumerServerConfig.class

@@ -1,0 +1,21 @@
+# 统一认证
+app:
+  id: uaa-service
+apollo:
+  bootstrap:
+    enabled: true #启动阶段注入配置
+    #    eagerLoad:
+    #      enabled: true
+    # 使用那些命名空间中的配置项
+    namespaces: application,micro_service.spring-boot-druid,micro_service.spring-boot-http,micro_service.spring-eureka,micro_service.spring-hystrix,micro_service.spring-cloud-feign,micro_service.spring-ribbon
+spring:
+  application:
+    name: uaa-service
+  main:
+    allow-bean-definition-overriding: true
+server:
+  max-http-header-size: 20480
+# 日志配置
+#logging:
+#  config: classpath:log4j2-dev.xml
+

@@ -1,0 +1,5 @@
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-22 19:09:15,684 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1432418ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-22 19:09:25,691 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-22 19:09:25,693 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:611] - Evicting 1 items (expired=3, evictionLimit=1)
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-22 19:09:25,694 WARN [Eureka-EvictionTimer][AbstractInstanceRegistry.java:623] - DS: Registry: expired lease for GATEWAY-SERVER/gateway-server:172.35.1.49:53010
+[wanxinp2p-discover-server][${env:SERVER_PORT}] 2022-03-22 19:09:25,696 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:330] - Cancelled instance GATEWAY-SERVER/gateway-server:172.35.1.49:53010 (replication=false)
